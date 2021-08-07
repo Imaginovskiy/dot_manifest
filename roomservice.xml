@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="personal" fetch="ssh://git@github.com/bertin0" revision="dot11" />
+    <remote name="personal2" fetch="ssh://git@github.com/Imaginovskiy" />
+    <remote name="https_custom" fetch="https://github.com/" />
+
+    <project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="personal2" revision="dot11" />
+    <project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="personal2" revision="dot11"/>
+    <project name="android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="personal2" revision="lineage-18.1" />
+    <project name="android_vendor_samsung_beyond2lte" path="vendor/samsung/beyond2lte" remote="personal2" revision="lineage-18.1-testing" />
+    <project name="android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="personal2" revision="lineage-18.1-testing" />
+    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-18.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="personal2" revision="dot11" />
+    <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-18.1" />
+    <remove-project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+    <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="personal2" revision="lineage-18.1" />
+</manifest>
